@@ -1,0 +1,49 @@
+.father h2 {
+    margin: 0 0 2rem 0;
+}
+.game img {
+    width:100%;
+    margin: 0;
+    height: 10rem;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+.game p {
+    padding: 0.2rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.father {
+    padding:2rem 10%;
+}
+.grid {
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1.5rem;
+}
+a, Link {
+    text-decoration: none;
+}
+.game p span:nth-child(1) {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.game p span:nth-child(2) {
+    font-size: smaller;
+    margin-right: 10px;
+}
+.game:hover {
+    background-color: aqua;
+}

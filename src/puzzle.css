@@ -1,0 +1,42 @@
+/* for the heading  */
+.tag {
+    text-align: center;
+    color: green;
+    font-size:4rem;
+    margin: 0.2rem 0 1rem 0;
+}
+.jigsaw-puzzle {
+    background-color: darkgray;
+    width: 76%;
+    max-height: 30rem;
+    align-self: center;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+ .mann {
+    min-width: 10rem;
+    color: white;
+    background-color: black;
+    align-self: center;
+    display: flex;
+    padding: 0.1rem 10rem 0.1rem 10rem ;
+    gap:5%;
+    justify-content: space-between;
+    align-items: center;
+ }
+/* for the jigsaw puzzle container */
+.puzz {
+    background-color: darkgray;
+    width: 100%;
+}
+.puzz2 {
+    background-color: darkgray;
+}
+
+.puzz3 {
+    background-color: gray;
+}
+.puzz4 {
+    background-color: gray;
+}

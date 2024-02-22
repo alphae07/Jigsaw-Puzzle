@@ -1,0 +1,30 @@
+.float {
+    left: 0;
+    top: 5rem;
+    width: 12%;
+    position: absolute;
+}
+.float h4 {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.pic {
+    width: 100%;
+}
+button {
+    width: 8rem;
+    padding: 0.5rem;
+}
+p {
+    width: 8rem;
+}
+button:hover {
+    background-color: aqua;
+    font-weight: 700;
+}
+p:hover {
+    font-weight: 700;
+}
